@@ -6,7 +6,14 @@ class buku {
     public:
         string setget(string jdl)
         {
-            this ->judul = jdl;
-            return this ->judul;
+            this->judul = jdl;
+            return this->judul;
         }
 };
+
+int main()
+{   
+    buku bukunya;
+    cout<<bukunya.setget("Matematika");
+    return 0;
+}
